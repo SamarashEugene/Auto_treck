@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    cursor: pointer;
+}
+
+p{
+    padding: 10px;
+}
+
+.container{
+    background: #b3d4fc;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.wrapper{
+    max-width: 1220px;
+    margin: 0 auto;
+}
