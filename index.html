@@ -25,7 +25,7 @@
                 <div class="header__info-block">
                     <div class="header__logo-block">
                         <div class="header__logo">
-                            <a href="#"><img src="img/png/logo.png" alt="Main logo"></a>
+                            <a href="#"><img src="img/png/logo.svg" alt="Main logo"></a>
                         </div>
                         <div class="header__vert-line"></div>
                         <div class="header__logo-text">производство и продажа
@@ -35,9 +35,17 @@
                     <div class="header__info">
                         <div class="header__detail-info">
                             <div class="header__time-work">
-                                Время работы
-                                <div class="header__time-polygon"><img src="img/png/Polygon%203.png"
-                                                                       alt="detail info about time of work"></div>
+                                <div class="accordion"> Время работы
+                                    <div class="header__time-polygon"><img src="img/png/polygon.svg"
+                                                                           alt="detail info about time of work">
+                                    </div>
+                                </div>
+                                <div class="display__none">
+                                    <div class="header__time-block">
+                                        <div>Пн-пт: с 8:00 до 18:00</div>
+                                        <div>Сб-вс: с 10:00 до 16:00</div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="header__address">г. Нижний Новгород ул. Торфяная, 35</div>
                         </div>
@@ -46,7 +54,7 @@
                             <div class="header__main-number">Нижний Новгород: 8 (831) 225-00-55</div>
                         </div>
                         <div class="header__call">
-                            <a href="tel:+380000000000"><img src="img/png/call-logo.png" alt="call icon"></a>
+                            <a href="tel:+380000000000"><img src="img/png/call-logo.svg" alt="call icon"></a>
                         </div>
                     </div>
                 </div>
@@ -67,11 +75,11 @@
                         <div class="header__list-links">
                             <ul class="header__nav-links">
                                 <li class="header__nav-item-1">О нас
-                                    <div class="header__nav-polygon"><img src="img/png/Polygon%203.png"
+                                    <div class="header__nav-polygon"><img src="img/png/polygon.svg"
                                                                           alt="detail info about us"></div>
                                 </li>
                                 <li class="header__nav-item-2">Медиа
-                                    <div class="header__nav-polygon"><img src="img/png/Polygon%203.png"
+                                    <div class="header__nav-polygon"><img src="img/png/polygon.svg"
                                                                           alt="detail info about media"></div>
                                 </li>
                                 <li class="header__nav-item-3"><a href="#">Сервис</a></li>
@@ -82,14 +90,15 @@
                     </div>
 
                     <div class="header__actions">
-                        <div class="header__search">
-                            <form action="#" class="header__form-search">
+                        <div class="header__desktop-search">
+                            <div class="header__search ">
                                 <button class="search__ico"><img src="img/png/search.svg" alt="search field"></button>
                                 <input class="header__search-field" type="text">
-                            </form>
+                            </div>
                         </div>
+
                         <div class="header__search-mobile">
-                            <img src="img/png/search__mobile.svg" alt="">
+                            <img src="img/png/search__mobile.svg" class="search__mobile-ico" alt="іконка пошуку">
                         </div>
                         <div class="header__shop-card">
                             <img src="img/png/card.svg" alt="card icon">
@@ -97,10 +106,179 @@
                         <div class="header__like">
                             <img src="img/png/like.svg" alt="what client likes">
                         </div>
-                        <div class="header__call-mob">
-                            <a href="tel:+380000000000"><img src="img/png/call-logo.svg" alt="call icon"></a>
-                        </div>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section__catalog">
+            <div class="wrapper">
+                <div class="catalog__block">
+                    <div class="catalog__section category">
+                        <div class="category__title">Категории</div>
+                        <ul class="category__items">
+                            <li class="category__item"><a href="#" class="category__item-link">Краны-манипуляторы</a>
+                            </li>
+                            <li class="category__item"><a href="#" class="category__item-link">Автофургоны</a></li>
+                            <li class="category__item"><a href="#" class="category__item-link">Автоэвакуаторы</a></li>
+                            <li class="category__item"><a href="#" class="category__item-link">Автогидроподъёмники</a>
+                            </li>
+                            <li class="category__item"><a href="#" class="category__item-link">Бортовые Автомобили</a>
+                            </li>
+                            <li class="category__item"><a href="#" class="category__item-link">Самосвалы</a></li>
+                            <li class="category__item"><a href="#" class="category__item-link">Автоцистерны</a></li>
+                            <li class="category__item"><a href="#" class="category__item-link">Автотопливозаправщики</a>
+                            </li>
+                            <li class="category__item"><a href="#" class="category__item-link">Крюковые погрузчики</a>
+                            </li>
+                            <li class="category__item"><a href="#" class="category__item-link">Продукция в наличии</a>
+                            </li>
+                            <li class="category__item"><a href="#" class="category__item-link">Шасси</a></li>
+                            <li class="category__item"><a href="#" class="category__item-link">Смотреть все
+                                категории</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="catalog__section about-us">
+                        <div class="about-us__title">О нас</div>
+                        <ul class="category__items">
+                            <li class="category__item"><a href="#" class="category__item-link">О компании ООО
+                                «Рустрак»</a></li>
+                            <li class="category__item"><a href="#" class="category__item-link">Новости</a></li>
+                            <li class="category__item"><a href="#" class="category__item-link">Наши партнёры</a></li>
+                            <li class="category__item"><a href="#" class="category__item-link">Производство</a></li>
+                            <li class="category__item"><a href="#" class="category__item-link">Поставщикам и
+                                партнёрам</a></li>
+                            <li class="category__item"><a href="#" class="category__item-link">Отзывы</a></li>
+                            <li class="category__item"><a href="#" class="category__item-link">Сертификаты</a></li>
+                            <li class="category__item"><a href="#" class="category__item-link">Вакансии</a></li>
+                            <li class="category__item"><a href="#" class="category__item-link">Кредит и лизинг</a></li>
+                        </ul>
+                    </div>
+                    <div class="catalog__section media">
+                        <div class="media__title">Медиа</div>
+                        <ul class="category__items">
+                            <li class="category__item"><a href="#" class="category__item-link">Фотогалерея</a></li>
+                            <li class="category__item"><a href="#" class="category__item-link">Видео</a></li>
+                            <li class="category__item"><a href="#" class="category__item-link">Материалы для
+                                скачивания</a></li>
+                            <li class="category__item"><a href="#" class="category__item-link">Рекламные материалы</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="catalog__section additional">
+                        <div class="additional__title">Сервис</div>
+                        <div class="additional__title">Новости</div>
+                        <div class="additional__title">Контакты</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section__catalog-tablet">
+            <div class="catalog__tablet-title">
+                <div class="category__tablet-item"><a href="#">Категории</a></div>
+                <div class="category__tablet-item"><a href="#">О нас</a></div>
+                <div class="category__tablet-item"><a href="#">Медиа</a></div>
+                <div class="category__tablet-item"><a href="#">Сервис</a></div>
+                <div class="category__tablet-item"><a href="#">Новости</a></div>
+                <div class="category__tablet-item"><a href="#">Контакты</a></div>
+            </div>
+            <div class="catalog__tablet-links category">
+                <ul class="category__items">
+                    <li class="category__item"><a href="#" class="category__item-link">Краны-манипуляторы</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Автофургоны</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Автоэвакуаторы</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Автогидроподъёмники</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Бортовые Автомобили</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Самосвалы</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Автоцистерны</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Автотопливозаправщики</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Крюковые погрузчики</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Продукция в наличии</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Шасси</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Смотреть все категории</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section__mobile-section">
+            <div>
+                <div class="catalog__mobile-title accordion">
+                    <div class="category__mobile-item">
+                        <a href="#">Категории
+                            <img src="img/png/polygon.svg" alt="">
+                        </a>
+                    </div>
+
+                </div>
+                <ul class="category__items">
+                    <li class="category__item"><a href="#" class="category__item-link">Краны-манипуляторы</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Автофургоны</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Автоэвакуаторы</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Автогидроподъёмники</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Бортовые Автомобили</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Самосвалы</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Автоцистерны</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Автотопливозаправщики</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Крюковые погрузчики</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Продукция в наличии</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Шасси</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Смотреть все категории</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <div class="catalog__mobile-title accordion">
+                    <div class="category__mobile-item">
+                        <a href="#">О нас
+                            <img src="img/png/polygon.svg" alt="">
+                        </a>
+                    </div>
+
+                </div>
+                <ul class="category__items">
+                    <li class="category__item"><a href="#" class="category__item-link">О компании ООО
+                        «Рустрак»</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Новости</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Наши партнёры</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Производство</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Поставщикам и
+                        партнёрам</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Отзывы</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Сертификаты</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Вакансии</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Кредит и лизинг</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <div class="catalog__mobile-title accordion">
+                    <div class="category__mobile-item">
+                        <a href="#">Медиа
+                            <img src="img/png/polygon.svg" alt="">
+                        </a>
+                    </div>
+
+                </div>
+                <ul class="category__items">
+                    <li class="category__item"><a href="#" class="category__item-link">Фотогалерея</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Видео</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Материалы для
+                        скачивания</a></li>
+                    <li class="category__item"><a href="#" class="category__item-link">Рекламные материалы</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="catalog__mobile-title">
+                <div class="catalog__mobile-title"><a href="#">Сервис</a></div>
+                <div class="catalog__mobile-title">
+                    <div class="category__mobile-item"><a href="#">Новости</a></div>
+                </div>
+                <div class="catalog__mobile-title">
+                    <div class="category__mobile-item"><a href="#">Контакты</a></div>
                 </div>
             </div>
         </div>

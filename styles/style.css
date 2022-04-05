@@ -21,7 +21,6 @@ p{
 }
 
 .container{
-    background: #b3d4fc;
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -29,4 +28,8 @@ p{
 .wrapper{
     max-width: 1220px;
     margin: 0 auto;
+}
+
+.accordion:hover, .accordion:focus, .accordion:active{
+    cursor: pointer;
 }
